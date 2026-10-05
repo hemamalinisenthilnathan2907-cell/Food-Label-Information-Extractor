@@ -1,15 +1,15 @@
 # Food-Label-Information-Extractor
-# 🍱 Food Label Information Extractor
+# Food Label Information Extractor
 
 A beginner-friendly AI application that extracts useful information from food product label images using OCR, Text Embedding, Attention Mechanism, and Regular Expressions.
 
-## 📌 Project Overview
+## Project Overview
 
 Food packages contain important information such as weight, calories, ingredients, protein, fat, carbohydrates, and dates.
 
 This project allows the user to upload a food label image and automatically extract useful information from the image.
 
-## 🔄 Project Workflow
+## Project Workflow
 
 Food Label Image
 ↓
@@ -25,7 +25,7 @@ Information Extraction
 ↓
 Streamlit Output
 
-## ✨ Features
+## Features
 
 - Upload food label image
 - Extract text using OCR
@@ -40,7 +40,7 @@ Streamlit Output
 - Detect ingredients
 - Display results in a simple web interface
 
-## 🧠 Technologies Used
+## Technologies Used
 
 - Python
 - Streamlit
@@ -54,11 +54,11 @@ Streamlit Output
 - OpenCV
 - Regular Expressions
 
-## 🔍 OCR
+## OCR
 
 Tesseract OCR is used to read text from the uploaded food label image.
 
-## 🔢 Text Embedding
+## Text Embedding
 
 The extracted text is converted into numerical vectors using the Sentence Transformer model:
 
@@ -66,11 +66,11 @@ The extracted text is converted into numerical vectors using the Sentence Transf
 
 The model produces 384-dimensional embeddings.
 
-## 🧠 Attention Mechanism
+## Attention Mechanism
 
 A scaled dot-product attention mechanism is used to calculate relationships between the extracted text embeddings and generate relative importance scores.
 
-## 📋 Information Extraction
+## Information Extraction
 
 Regular expressions are used to identify:
 
@@ -82,7 +82,7 @@ Regular expressions are used to identify:
 - Carbohydrates
 - Ingredients
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Food_Label_Extractor/
