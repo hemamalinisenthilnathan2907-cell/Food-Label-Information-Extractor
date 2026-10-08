@@ -9,6 +9,9 @@ Food packages contain important information such as weight, calories, ingredient
 
 This project allows the user to upload a food label image and automatically extract useful information from the image.
 
+## Demo Link
+https://food-label-information-extractor-ftnqyxfiqhj2tmuttgdlfc.streamlit.app/
+
 ## Project Workflow
 
 Food Label Image
